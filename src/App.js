@@ -1,25 +1,37 @@
-import logo from './logo.svg';
-import './App.css';
+// import mom from './assets/mom-in-water.jpg';
+// import mae1 from './assets/mae-1.jpg';
+// import mae2 from './assets/mae-2.jpg';
+// import sunset from './assets/sunset.jpg';
+// import water from './assets/water.jpg';
+
+import './styles/App.css';
+import SimpleSlider from "./slick.js";
+
+
+
+
+
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+
+
+<div className='slider-wrapper-jared'>
+      <SimpleSlider> </SimpleSlider>
+
+      </div>
+
+
+
+
+
+
     </div>
   );
 }
 
 export default App;
+
+
+
