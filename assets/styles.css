@@ -54,6 +54,12 @@ a:hover {
 
 }
 
+@media screen and (max-width: 600px) {
+    .main-wrapper {
+        padding:1rem;
+    }
+  }
+
 
 .owl-carousel .owl-stage {
     display: flex;
