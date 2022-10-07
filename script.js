@@ -6,9 +6,6 @@ $('.owl-carousel').owlCarousel({
     margin:5,
     dots: false,
     nav:true,
-    stagePadding: 50,
-
-    // autoHeight:true,
     responsive:{
         0:{
             items:1

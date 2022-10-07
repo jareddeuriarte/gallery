@@ -39,6 +39,21 @@ a:hover {
 }
 
 
+.about-wrapper{
+    max-width: 18rem;
+}
+
+
+.work-wrapper{
+    display: flex;
+    flex-direction: column;
+}
+
+.main-wrapper{
+    padding:6rem;
+
+}
+
 
 .owl-carousel .owl-stage {
     display: flex;
