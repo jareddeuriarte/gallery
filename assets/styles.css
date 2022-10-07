@@ -1,6 +1,7 @@
 body {
     height: 100vh;
     background-color: #edede9;
+    padding: 1rem;
 }
 
 img {
@@ -56,7 +57,7 @@ a:hover {
 
 @media screen and (max-width: 600px) {
     .main-wrapper {
-        padding:1rem;
+        padding: 0.5rem;
     }
   }
 
