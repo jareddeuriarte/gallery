@@ -1,15 +1,58 @@
-img{
+body {
+    height: 100vh;
+    background-color: #edede9;
+}
+
+img {
     max-width: 50rem;
 }
 
 
-h1{
+h1 {
     font-family: 'Comfortaa', cursive;
+    margin:0;
 
 }
 
+h4 {
+    font-family: 'Comfortaa', cursive;
+    margin: 0;
+}
 
-p{
+
+p {
+    font-family: 'Nixie One', cursive;
+    margin:0;
+
+}
+
+a {
+    text-decoration: inherit;
+
+    color: inherit;
     font-family: 'Nixie One', cursive;
 
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+
+
+.owl-carousel .owl-stage {
+    display: flex;
+    align-items: center;
+}
+
+
+.qr-wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+#qr{
+    max-width: 15rem;
 }

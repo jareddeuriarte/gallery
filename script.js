@@ -4,8 +4,11 @@ console.log('hello world')
 $('.owl-carousel').owlCarousel({
     loop:true,
     margin:5,
-    dots: true,
+    dots: false,
     nav:true,
+    stagePadding: 50,
+
+    // autoHeight:true,
     responsive:{
         0:{
             items:1
@@ -18,3 +21,6 @@ $('.owl-carousel').owlCarousel({
         }
     }
 })
+
+
+
