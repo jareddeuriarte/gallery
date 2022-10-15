@@ -78,3 +78,17 @@ a:hover {
 #qr{
     max-width: 15rem;
 }
+
+
+
+.plant-container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+
+}
+
+.plant-container img{
+    padding: 1rem;
+    max-width: 65%;
+}
