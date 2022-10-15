@@ -105,3 +105,22 @@ a:hover {
     padding: 1rem;
     max-width: 40%;
 }
+
+
+
+@media screen and (max-width: 600px) {
+    .yoga-container {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .yoga-container img {
+        padding: 1rem;
+        max-width: 21rem;
+    }
+
+
+
+
+}
