@@ -92,3 +92,17 @@ a:hover {
     padding: 1rem;
     max-width: 65%;
 }
+
+
+.yoga-container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+
+}
+
+
+.yoga-container img{
+    padding: 1rem;
+    max-width: 40%;
+}
