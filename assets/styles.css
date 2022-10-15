@@ -11,8 +11,7 @@ img {
 
 h1 {
     font-family: 'Comfortaa', cursive;
-    margin:0;
-
+    margin-bottom: 1rem;
 }
 
 h4 {
@@ -23,7 +22,7 @@ h4 {
 
 p {
     font-family: 'Nixie One', cursive;
-    margin:0;
+    margin: 0;
 
 }
 
@@ -40,18 +39,18 @@ a:hover {
 }
 
 
-.about-wrapper{
+.about-wrapper {
     max-width: 18rem;
 }
 
 
-.work-wrapper{
+.work-wrapper {
     display: flex;
     flex-direction: column;
 }
 
-.main-wrapper{
-    padding:6rem;
+.main-wrapper {
+    padding: 6rem;
 
 }
 
@@ -59,7 +58,7 @@ a:hover {
     .main-wrapper {
         padding: 0.5rem;
     }
-  }
+}
 
 
 .owl-carousel .owl-stage {
@@ -75,26 +74,26 @@ a:hover {
 }
 
 
-#qr{
+#qr {
     max-width: 15rem;
 }
 
 
 
-.plant-container{
+.plant-container {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
 
 }
 
-.plant-container img{
+.plant-container img {
     padding: 1rem;
     max-width: 65%;
 }
 
 
-.yoga-container{
+.yoga-container {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
@@ -102,7 +101,7 @@ a:hover {
 }
 
 
-.yoga-container img{
+.yoga-container img {
     padding: 1rem;
     max-width: 40%;
 }
