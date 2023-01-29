@@ -124,25 +124,6 @@ a:hover {
 padding: 1em;
 }
 
-
-
-@media screen and (max-width: 600px) {
-    .yoga-container {
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-    }
-
-    .yoga-container img {
-        padding: 1rem;
-        max-width: 21rem;
-    }
-
-
-
-
-}
-
 #mydiv {
     /* overflow: scroll; */
     overflow: auto;
@@ -153,6 +134,8 @@ padding: 1em;
     align-self: center;
 
 }
+
+
 
 
 /* Scrollbar styles */
@@ -178,3 +161,58 @@ padding: 1em;
         background: rgb(152, 160, 175);  
     }
 
+
+
+    @media screen and (max-width: 600px) {
+        .yoga-container {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+        }
+    
+        .yoga-container img {
+            padding: 1rem;
+            max-width: 21rem;
+        }
+    
+    
+    
+        #mydiv {
+      
+            display: flex;
+            flex-direction: wrap;
+        
+        }
+
+        .plant-pic {
+            max-height: 17rem;
+            padding: 1em;
+        }
+    
+    
+    
+    }
+    
+    
+    
+    
+    
+    @media screen and (max-width: 414px) {
+    
+    
+    
+        #mydiv {
+      
+            display: flex;
+            flex-direction: wrap;
+        
+        }
+
+        .plant-pic {
+            max-height: 17rem;
+            padding: 1em;
+        }
+    
+    
+    
+    }
