@@ -94,12 +94,11 @@ a:hover {
 
 
 
-.plant-container {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
+/* .plant-container {
 
-}
+} */
+
+
 
 .plant-container img {
     padding: 1rem;
@@ -120,6 +119,11 @@ a:hover {
     max-width: 40%;
 }
 
+.plant-pic{
+    max-height: 35rem;
+padding: 1em;
+}
+
 
 
 @media screen and (max-width: 600px) {
@@ -138,3 +142,39 @@ a:hover {
 
 
 }
+
+#mydiv {
+    /* overflow: scroll; */
+    overflow: auto;
+    max-width: 100%;
+    /* max-height: 600px; */
+    display: flex;
+    flex-direction: row;
+    align-self: center;
+
+}
+
+
+/* Scrollbar styles */
+
+
+
+::-webkit-scrollbar {
+    width: 10px;
+    height: 10px;
+    }
+    
+    /* ::-webkit-scrollbar-track {
+    border: 1px solid yellowgreen;
+    border-radius: 10px;
+    } */
+    
+    ::-webkit-scrollbar-thumb {
+    background: rgb(136, 162, 220);  
+    border-radius: 10px;
+    }
+    
+    ::-webkit-scrollbar-thumb:hover {
+        background: rgb(152, 160, 175);  
+    }
+
